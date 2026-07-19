@@ -180,16 +180,16 @@ h1,h2,h3{ font-family:var(--serif); margin:0; color:var(--ink); }
 
 .stamp-inline{
   padding:4px 9px; font-size:0.68rem; border-width:1.5px; border-radius:3px;
-  transform:rotate(-4deg);
+  transform:rotate(0deg);
 }
 .stamp-active{ --stamp-color: var(--teal); }
 .stamp-training{ --stamp-color: var(--gold); }
 .stamp-personal{ --stamp-color: var(--ink-soft); }
 
 @keyframes stampIn{
-  0%{ opacity:0; transform:scale(1.8) rotate(-8deg); }
-  60%{ opacity:1; transform:scale(0.94) rotate(-8deg); }
-  100%{ opacity:0.9; transform:scale(1) rotate(-8deg); }
+  0%{ opacity:0; transform:scale(1.8) rotate(0deg); }
+  60%{ opacity:1; transform:scale(0.94) rotate(0deg); }
+  100%{ opacity:0.9; transform:scale(1) rotate(0deg); }
 }
 .stamp[data-animate="stamp"]{ animation:stampIn .5s ease-out .6s both; }
 
