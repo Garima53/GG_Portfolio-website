@@ -25,7 +25,7 @@ const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)
 // Typed tagline effect
 // =========================================================
 const typedEl = document.getElementById('typedLine');
-const taglineText = 'currently building fintech systems at TCS Digital';
+const taglineText = 'currently working at TCS as a Systems Engineer';
 
 function typeTagline() {
   if (prefersReducedMotion) {
