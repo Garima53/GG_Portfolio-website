@@ -167,7 +167,7 @@ h1,h2,h3{ font-family:var(--serif); margin:0; color:var(--ink); }
   font-family:var(--mono); font-weight:600; letter-spacing:0.12em;
   text-transform:uppercase; color:var(--stamp-color);
   border:2px solid var(--stamp-color); border-radius:4px;
-  transform:rotate(-8deg);
+  transform:rotate(0deg);
   opacity:0.9;
 }
 .stamp::before, .stamp::after{ content:none; }
